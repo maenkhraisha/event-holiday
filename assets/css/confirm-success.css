@@ -1,0 +1,115 @@
+.banner-container img{
+    width: 100%;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25% 0;
+}
+.logo-container img{
+    width: 25%;
+}
+.logo-container h1{
+    color: #64c246;
+    margin: 0;
+    padding: 0;
+}
+.logo-container p{
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer button{    
+    font-family: 'Cairo', sans-serif;
+    background-color: #7a7a7a;    
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 1%;
+    padding: 3% 5%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;  
+}
+
+footer button:hover{
+    background-color: #7a7a7ad6;
+    outline: 1px solid #7a7a7ad6; 
+}
+
+footer div {
+    display: flex;
+    justify-content: baseline;
+    padding: 0;
+    margin: 2% 0;
+ 
+}
+.social-logo-container{
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
+    padding: 0;
+}
+.social-logo-container img{
+    cursor: pointer;
+    width: 25px;
+    transition: 0.3s;
+}
+.social-logo-container img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1px 1px #7a7a7a;
+}
+footer div p {
+    margin: 0;
+    padding: 0;
+    color: #7a7a7a;
+    font-weight: bold;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        display: flex;                         
+        margin: 3%;      
+    }
+
+    .banner-container img{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        height: 90vh;
+        width: 50vw;
+        object-fit: cover;
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+        padding: 2% 5%;          
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,130 @@
+
+
+ /* sign up page */
+ .banner img{
+    width: 100%;
+ }
+
+ .logo{
+    text-align: center;
+    padding: 1rem 0 0 0;
+ }
+ .logo img{
+    width: 40%;
+ }
+ .desc{
+    text-align: center;  
+    padding: 0 5%;  
+ }
+ .desc h1{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 0;
+    margin: 2% 0 0 0;
+ }
+ .desc p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #939192;
+ }
+ .submit-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    align-items: center;
+ }
+ .submit-form select,
+ .submit-form input{
+    font-family: 'Cairo', sans-serif;    
+    width: 100%;
+    margin: 3% 0;
+    padding: 4%;
+    border: #fff;
+    box-shadow: 0 0 10px 5px #edeef1;
+    font-size: 16px;
+    font-weight: 800;
+    color: #939192;    
+    border-radius: 33px;
+    text-align: right;
+ }
+ .submit-form input{
+    width: 90%;
+ }
+ 
+ option {
+   color: #939192 !important;
+   font-size: 16px;
+   font-weight: 800;  
+   outline: 0px solid transparent;    
+ }
+
+ .submit-form select:focus,
+ .submit-form input:focus{
+   outline-color: #2aba77;
+   box-shadow: 0 0 2px 2px #2aba77;
+}
+
+ .submit-form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Cairo', sans-serif;
+    opacity: 1; /* Firefox */
+  }
+  
+  .submit-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  .submit-form input::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Cairo', sans-serif;
+  }
+ 
+  .submit-form button{
+    font-family: 'Cairo', sans-serif;
+    background-color: #01bd9f;    
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5%;
+    padding: 2% 5%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .submit-form button:hover{
+   background-color: #01bd9ed2;  
+   outline: 1px solid #01bd9f;  
+  }
+
+ /* sign up page */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        display: flex;          
+        justify-content: space-between;        
+        margin: 3%;      
+    }
+  
+    .banner img{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .text-container{
+      width: 70%;
+      padding: 2% 5%;      
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

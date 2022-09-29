@@ -1,0 +1,99 @@
+.banner-container img{
+    width: 100%;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container img{
+    width: 50%;  
+    padding: 5% 0 0 0;   
+}
+
+.input-container div{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+.input-container div input{
+    font-family: 'Cairo', sans-serif;    
+    width: 100%;
+    margin: 3% 0;
+    padding: 4%;
+    border: #fff;
+    box-shadow: 0 0 10px 5px #edeef1;
+    font-size: 16px;
+    font-weight: 800;
+    color: #939192;    
+    border-radius: 33px;
+    text-align: right;
+}
+.input-container div input:focus{
+outline-color: #2aba77;
+box-shadow: 0 0 2px 2px #2aba77;
+}
+
+.btn{
+    font-family: 'Cairo', sans-serif;
+    background-color: #01bd9f; 
+    width: max-content;   
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1%;
+    padding: 1% 15%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #01bd9ed2;  
+    outline: 1px solid #01bd9f;  
+   }
+
+   .blue{
+    background-color: #0e94ce;
+   }
+   .blue:hover{
+    background-color: #0e94cede;
+   }
+
+
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        display: flex;          
+        justify-content: space-between;        
+        margin: 3%;      
+    }
+  
+    .banner-container img{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .input-container{
+        display: flex;
+        justify-content: space-between;
+      width: 70%;
+      padding: 10% 5%;      
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
